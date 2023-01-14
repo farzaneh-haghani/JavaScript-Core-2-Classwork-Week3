@@ -4,6 +4,12 @@
   - Right click on index.html and select "Open with Live Server"
 */
 
+const contentDiv = document.querySelector("#content");
+console.log(contentDiv);
+const articles = document.querySelectorAll("article");
+console.log(articles);
+const navLinks = document.querySelector(".nav-link");
+console.log(navLinks);
 /*
 Task 1
 =======
@@ -22,7 +28,18 @@ Write JavaScript below that console.logs:
     --> should log a list of nodes with a length of 3
 
 */
+const allP = document.querySelectorAll("p");
+console.log(allP);
 
+const firstDiv = document.querySelector("div")
+console.log(firstDiv);
+
+const idJumbotronText = document.querySelector("#jumbotronText");
+console.log(idJumbotronText);
+
+const allPClassPrimary = document.querySelectorAll(".primary-content p");
+// const allPClassPri = document.querySelectorAll(".primary-content").querySelectorAll("p");
+console.log(allPClassPrimary);
 
 /*
 Task 2
